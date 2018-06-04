@@ -1,0 +1,31 @@
+.search-results {
+  margin: 0;
+  padding: 0;
+  width: 266px;
+  position: absolute;
+  list-style: none;
+  background-color: aliceblue;
+}
+
+.search-results li {
+  display: flex;
+  align-items: center;
+  padding: 10px 15px;
+}
+
+.search-results li:hover {
+  cursor: pointer;
+  background-color: antiquewhite;
+}
+
+.search-results li span {
+  margin-left: 10px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.search-results li img {
+  width: 30px;
+  height: 30px;
+}
